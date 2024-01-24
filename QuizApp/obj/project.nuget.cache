@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9zb9pb6rKV66w3P9k9geDvdFukfXq5pt7u1sL2ICl/Rb1dN3nvUYxIvPaF2s+8z0vxKwDioi8vNmGkAiAjq3Mg==",
+  "dgSpecHash": "5y7N/Uk7JIaufsmBUJw1eY3GQlcDcyqWYzTuoE1gmZAvphcx4qFN9DZOzoJcMiQv+C2UrL30BPz2li6XHKIxjQ==",
   "success": true,
-  "projectFilePath": "D:\\Job\\Tutorial\\QuizApp\\QuizApp\\QuizApp.csproj",
+  "projectFilePath": "D:\\Job\\QuizApp\\QuizApp\\QuizApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nahbe\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nahbe\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
