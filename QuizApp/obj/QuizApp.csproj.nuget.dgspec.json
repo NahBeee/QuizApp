@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Job\\QuizApp\\QuizApp\\QuizApp.csproj": {}
+    "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj": {}
   },
   "projects": {
-    "D:\\Job\\QuizApp\\QuizApp\\QuizApp.csproj": {
+    "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Job\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "projectUniqueName": "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj",
         "projectName": "QuizApp",
-        "projectPath": "D:\\Job\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "projectPath": "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj",
         "packagesPath": "C:\\Users\\nahbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Job\\QuizApp\\QuizApp\\obj\\",
+        "outputPath": "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,27 +45,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[6.5.0, )"
             }
           },
           "imports": [

@@ -24,4 +24,5 @@ namespace QuizApp.Pages
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }
+
 }

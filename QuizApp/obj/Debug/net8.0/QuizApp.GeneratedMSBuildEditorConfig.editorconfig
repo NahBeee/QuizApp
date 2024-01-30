@@ -9,39 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuizApp
 build_property.RootNamespace = QuizApp
-build_property.ProjectDir = D:\Job\QuizApp\QuizApp\
+build_property.ProjectDir = C:\Users\nahbe\Desktop\QuizApp\QuizApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Job\QuizApp\QuizApp
+build_property.MSBuildProjectDirectory = C:\Users\nahbe\Desktop\QuizApp\QuizApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Job/QuizApp/QuizApp/Pages/Error.cshtml]
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/EditPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Job/QuizApp/QuizApp/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Job/QuizApp/QuizApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/ManageQuestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlUXVlc3Rpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Job/QuizApp/QuizApp/Pages/_ViewImports.cshtml]
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/ShowScore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd1Njb3JlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/TakeQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFrZVF1aXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Job/QuizApp/QuizApp/Pages/_ViewStart.cshtml]
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Job/QuizApp/QuizApp/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-axyaccrftx
-
-[D:/Job/QuizApp/QuizApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/nahbe/Desktop/QuizApp/QuizApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pmtu75xvo2

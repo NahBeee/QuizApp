@@ -1,19 +1,13 @@
-
-
 using Microsoft.EntityFrameworkCore;
-using QuizApp.Context;
+using QuizApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("QuizDbContext");
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddControllers();
 
-//builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
-//builder.Services.AddDbContext<QuizDbContext>(options => options.UseSqlServer(connectionString));
-
+builder.Services.AddDbContext<AppDbContext>(option =>
+    option.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,5 +26,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+
 
 app.Run();

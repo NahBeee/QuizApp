@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace QuizApp.Pages
@@ -12,10 +12,9 @@ namespace QuizApp.Pages
             _logger = logger;
         }
 
-        //will be used to put data to above variables.
         public void OnGet()
         {
-            
+
         }
     }
 }

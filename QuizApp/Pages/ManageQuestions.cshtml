@@ -1,0 +1,30 @@
+﻿@page
+@model ManageQuestionsModel
+@{
+    ViewData["Title"] = "Question Banks";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Questions != null && Model.Questions.Any())
+{
+    <ul>
+        @foreach (var question in Model.Questions)
+        {
+            <li>
+                @question.Text
+                <a asp-page="./EditPage" asp-route-id="@question.Id">Edit Question</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No Questions Added.</p>
+}
+
+<form method="post" asp-page-handeler="OnPostAddQuestionAsync">
+    <label for="questionText">Question Text:</label>
+    <input type="text" id="questionText" name="questionText" required />
+
+    <button type="submit">Add Question</button>
+</form>
